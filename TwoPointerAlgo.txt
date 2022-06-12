@@ -1,0 +1,15 @@
+Two pointers is really an easy and effective technique that is 
+typically used for searching pairs in a sorted array.
+
+1. two pointer is a technique used for searching in : arrays, linkedlists, strings.
+2. both pointers run inside one loop.
+3. it reduces the TC from On2, On3, to On.
+4. if input arr,string is Unsorted , two pointer will result in O(n logn)
+5. If ainput arr,string is Sorted, two pointer will result in O(n)
+
+6. There are 2variants of this algo:
+        A. same directional : both pointers start from same point, one fast runner, one slow runner.
+        eg, sliding window
+        B. opposite directional : one start from start, other from end.
+
+
